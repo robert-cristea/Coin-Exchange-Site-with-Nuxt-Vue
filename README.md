@@ -1,6 +1,6 @@
-#[Exchange Website Template]
+# [Exchange Website Template]
 ![Product PNG](screen1.PNG)
-#$Install
+# Install
 npm inistall
 npm start 
  
