@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "no-extra-semi": false,
+  "singleQuote": true,
+  "insert_final_newline": true,
+  "comma_dangle": true,
+  "no-irregular-whitespace": true,
+  "vue/attributes-order": true
+}

@@ -1,0 +1,71 @@
+@mixin bp($point) {
+  @if $point == desktop-xl {
+    @media (max-width: 1920px) {
+      @content;
+    }
+  } @else if $point == r-desktop-xl {
+    @media (min-width: 1920px) {
+      @content;
+    }
+  } @else if $point == desktop-lg {
+    @media (max-width: 1500px) {
+      @content;
+    }
+  } @else if $point == r-desktop-lg {
+    @media (min-width: 1500px) {
+      @content;
+    }
+  } @else if $point == desktop-md {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $point == r-desktop-md {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  } @else if $point == desktop-sm {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  } @else if $point == r-tablet {
+    @media (min-width: 992px) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (max-width: 992px) {
+      @content;
+    }
+  } @else if $point == nav {
+    @media (max-width: 900px) {
+      @content;
+    }
+  } @else if $point == r-nav {
+    @media (min-width: 900px) {
+      @content;
+    }
+  } @else if $point == r-tablet-sm {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $point == tablet-sm {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: 576px) {
+      @content;
+    }
+  } @else if $point == r-mobile {
+    @media (min-width: 576px) {
+      @content;
+    }
+  } @else if $point == mobile-sm {
+    @media (max-width: 480px) {
+      @content;
+    }
+  } @else if $point == mobile-xs {
+    @media (max-width: 320px) {
+      @content;
+    }
+  }
+}

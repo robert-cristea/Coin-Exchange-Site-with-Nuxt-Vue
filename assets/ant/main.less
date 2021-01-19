@@ -1,0 +1,232 @@
+@import '~ant-design-vue/dist/antd.less';
+@import '~/assets/ant/variables.less';
+@import '~/assets/ant/global.less';
+
+:root {
+  --body-background: #fff;
+  --text-color: #2c2c2c;
+  --text-color-secondary: #858e9d;
+  --danger-color: #ce483e;
+  --text-primary: #1ba4e8;
+
+  // Status Bar
+  --status-bar-bg: #f7f7f7;
+  --status-bar-currency-title-color: var(--text-color);
+  --status-bar-currency-subtitle-color: var(--text-color-secondary);
+  --status-bar-statistics-label-color: #747474;
+  --status-bar-statistics-value-color: var(--text-color);
+  // Exchange Table
+  --exchange-table-even-row-bg: #f5f5f5;
+
+  // Action Card
+  --action-card-bg: #f7f7f7;
+  --action-card-input-border-color: #c5d9e2;
+  --action-card-input-color: var(--text-color);
+  --action-card-mid-border-color: #cfe5ef;
+
+  --action-tabs-item-border-color: #c9c9c9;
+  --action-tabs-item-text-color: var(--text-color);
+
+  // Percentage
+  --percentage-item-border-color: #dfedf2;
+
+  // Common
+
+  // buttons
+  --primary-button-bg: #50c5fd;
+  --primary-button-text-color: #212833;
+  // login/signup
+
+  --login-warning-bg: #ffffff;
+  --login-warning-text-color: #2e4153;
+  --login-warning-border-color: #dadada;
+  --login-warning-link-color: #288b38;
+
+  --login-button-bg-color: #90dafe;
+  --login-tab-title-inactive-color: #778090;
+  --login-tab-title-active-color: #2c2c2c;
+  --login-bottom-links-color: @primary-color-darker;
+
+  --card-border-color: #d9d9d9;
+
+  --active-tab-text-color: #474d57;
+  --inactive-tab-text-color: #778090;
+
+  --account-page-bg: #fafafa;
+  // cancel buttons
+  --cancel-button-color: #ce483e;
+  --cancel-button-border-color: #fff;
+}
+
+#wrapper.dark {
+  --text-color: #fff;
+  --danger-color: #d9304e;
+  --body-background: #161c29;
+  --status-bar-bg: #0c121e;
+  --status-bar-currency-title-color: var(--text-color);
+  --status-bar-currency-subtitle-color: var(--text-color);
+  --status-bar-statistics-label-color: #b4b4b4;
+  --status-bar-statistics-value-color: var(--text-color);
+
+  --card-border-color: #47587e;
+  --exchange-table-even-row-bg: #1e2227;
+
+  --action-card-bg: #1e2430;
+  --action-card-heading-color: #fff;
+  --action-card-input-border-color: #47587e;
+  --action-card-input-color: #fff;
+  --action-card-mid-border-color: #47587e;
+
+  --action-tabs-item-border-color: #2e353e;
+  --action-tabs-item-text-color: var(--text-color);
+
+  --percentage-item-border-color: #2e353e;
+
+  --login-warning-bg: #0e1317;
+  --login-warning-text-color: #fff;
+  --login-warning-border-color: none;
+  --login-warning-link-color: @primary-color;
+  --value-card-color: #fff;
+
+  //account page
+  --account-page-bg: #1f242a;
+
+  --active-tab-text-color: @primary-color-darker;
+  --inactive-tab-text-color: #fff;
+
+  color: var(--text-color);
+  background: var(--body-background);
+
+  // cancel buttons
+  --cancel-button-color: #ffffff;
+  --cancel-button-border-color: #47587e;
+}
+
+.ant-card {
+  border: 1px solid var(--card-border-color);
+  color: var(--text-color);
+  &-head {
+    border-bottom: none;
+    font-size: 1.2rem;
+  }
+}
+
+.ant-card-bordered {
+  border: 1px solid var(--card-border-color);
+}
+
+.select-outline {
+  .ant-select-selection {
+    background: transparent;
+  }
+
+  .ant-select-arrow {
+    color: @white;
+  }
+
+  &-primary {
+    .ant-select-selection {
+      border: 1px solid @primary-color;
+    }
+  }
+
+  &-light-primary {
+    .ant-select-selection {
+      border: 1px solid #9caece;
+    }
+  }
+}
+.ant-table thead tr th {
+  font-size: 12px !important;
+  padding: 16px 12px !important;
+}
+.ant-table .ant-table-tbody > tr > td {
+  padding: 16px 12px !important;
+}
+.ant-table-expanded-row > td {
+  background-color: #eaf8ff !important;
+  padding: 0 !important;
+}
+.ant-table-expanded-row > td > .order-slot-calc {
+  padding-left: 16px !important;
+}
+.ant-table-expanded-row tbody tr td {
+  border: 0 !important;
+}
+.ant-table-expanded-row thead tr th {
+  background-color: #cdeaf8 !important;
+  border: 0 !important;
+}
+.ant-menu-item::after {
+  left: 0 !important;
+}
+
+.ant-table {
+  .ant-table-thead tr th {
+    color: #808998;
+  }
+  .activity-table-row {
+    td {
+      color: #8d8e91;
+    }
+  }
+}
+
+.header-submenu-content {
+  background-color: #1c2640;
+
+  .ant-menu {
+    background-color: #1c2640;
+    border-radius: 0;
+    color: white;
+  }
+}
+
+// trade form
+.ant-tabs-nav-wrap {
+  margin-bottom: 0;
+}
+// notifications card
+
+.notifications-card-body {
+  .ant-empty-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+// preferences settings
+
+.preferences-list-actions {
+  .ant-switch-checked {
+    background-color: #1dc077;
+  }
+}
+
+// security settings
+
+.security-settings-list-item {
+  .ant-list-item {
+    margin-bottom: 0;
+  }
+}
+.security-setting-card-small {
+  .ant-card-body {
+    padding: 12px;
+  }
+}
+.auth-type-list {
+  .ant-list-item-meta-title {
+    margin-bottom: 0px;
+  }
+}
+
+.collapse-panel {
+  .ant-collapse-content-box {
+    padding: 16px 0px;
+  }
+}
+
+// mobile design exchange page

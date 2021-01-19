@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="72" viewBox="0 0 240 72">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7a41d8"/>
+      <stop offset="1" stop-color="#7a41d8"/>
+      <stop offset="1" stop-color="#6151fb"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-931 -4122)">
+    <g id="Rounded-Rectangle-2011" transform="translate(404 4120)">
+      <path id="Path_9" data-name="Path 9" d="M537,2H757a10,10,0,0,1,10,10V64a10,10,0,0,1-10,10H537a10,10,0,0,1-10-10V12A10,10,0,0,1,537,2Z"/>
+      <path id="Path_10" data-name="Path 10" d="M537,2H757a10,10,0,0,1,10,10V64a10,10,0,0,1-10,10H537a10,10,0,0,1-10-10V12A10,10,0,0,1,537,2Z" fill="#ecede7"/>
+      <path id="Path_11" data-name="Path 11" d="M537,2H757a10,10,0,0,1,10,10V64a10,10,0,0,1-10,10H537a10,10,0,0,1-10-10V12A10,10,0,0,1,537,2Z" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Get-it-on" transform="translate(1005 4145)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Get it on</tspan></text>
+    <text id="Google-Play" transform="translate(1007 4176)" fill="#fff" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Google Play</tspan></text>
+    <g id="google-play-2" data-name="google-play" transform="translate(955 4135)">
+      <path id="Fill-1" d="M8.5.733A5.477,5.477,0,0,0,3,.747L23.211,20,30,12.989,8.5.733" fill="#fff" fill-rule="evenodd"/>
+      <path id="Fill-3" d="M.774,3A5.407,5.407,0,0,0,0,5.776V40.292A5.427,5.427,0,0,0,.722,43L21,22.167.774,3" fill="#fff" fill-rule="evenodd"/>
+      <path id="Fill-4" d="M39.136,17.689,32.48,14,25,21.509,34.167,30l4.972-2.756a5.418,5.418,0,0,0,0-9.555" fill="#fff" fill-rule="evenodd"/>
+      <path id="Fill-5" d="M25.011,23,3,44.2a6.272,6.272,0,0,0,6.037.055L34,30.985,25.011,23" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

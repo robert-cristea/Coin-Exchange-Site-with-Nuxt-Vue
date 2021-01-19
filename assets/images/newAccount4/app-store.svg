@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="72" viewBox="0 0 240 72">
+  <g id="Group_6" data-name="Group 6" transform="translate(-349 -4024)">
+    <path id="Rounded-Rectangle-2011" d="M277,2H497a10,10,0,0,1,10,10V64a10,10,0,0,1-10,10H277a10,10,0,0,1-10-10V12A10,10,0,0,1,277,2Z" transform="translate(82 4022)" fill="#5d4df6" fill-rule="evenodd"/>
+    <text id="Download-on-the" transform="translate(434 4046)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Download on the</tspan></text>
+    <text id="App-Store" transform="translate(434 4079)" fill="#fff" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">App Store</tspan></text>
+    <g id="apple" transform="translate(370 4032)">
+      <path id="Fill-1" d="M29.91,0a11.318,11.318,0,0,0-7.38,4.1A10.339,10.339,0,0,0,20.113,12a9.543,9.543,0,0,0,7.447-3.9A11.169,11.169,0,0,0,29.91,0" fill="#f1eff8" fill-rule="evenodd"/>
+      <path id="Fill-3" d="M40.577,17.032A12.414,12.414,0,0,0,31.182,12c-4.41,0-6.275,2.13-9.339,2.13-3.159,0-5.559-2.124-9.373-2.124-3.746,0-7.735,2.31-10.264,6.26C-1.35,23.829-.742,34.288,5.02,43.2c2.062,3.188,4.816,6.772,8.417,6.8,3.205.031,4.109-2.074,8.451-2.1s5.166,2.124,8.365,2.09c3.6-.028,6.509-4,8.571-7.188A35.853,35.853,0,0,0,42,36.791c-8.338-3.2-9.674-15.166-1.423-19.758" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
